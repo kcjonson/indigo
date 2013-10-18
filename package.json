@@ -6,10 +6,14 @@
 	},
 	"name": "indigo",
 	"description": "Node.js Facade for Perceptive Home Automations Indigo home automation servers python REST API",
-	"version": "0.0.2",
+	"version": "0.0.7",
 	"repository": {
 		"type": "git",
 		"url":  "git://github.com/kcjonson/indigo.git" },
-	"bin": "./bin/indigo.js"
+	"directories": {
+		"lib": "./lib"
+	},
+	"main:": "lib/indigo.js",
+	"license": "MIT",
 	"private": false
 }
