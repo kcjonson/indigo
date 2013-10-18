@@ -1,0 +1,8 @@
+{ "name": "indigo",
+  "description": "Node.js Facade for Perceptive Home Automation's 'Indigo' home automation server's python REST API",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url":  "git://github.com/mixu/modulename.git" }
+  "private": false
+}
