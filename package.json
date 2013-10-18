@@ -1,8 +1,15 @@
-{ "name": "indigo",
-  "description": "Node.js Facade for Perceptive Home Automation's 'Indigo' home automation server's python REST API",
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url":  "git://github.com/mixu/modulename.git" }
-  "private": false
+{ 
+	"author": {
+		"name": "Kevin Jonson",
+		"email": "kcjonson@gmail.com",
+		"url": "http://kevinjonson.com"
+	},
+	"name": "indigo",
+	"description": "Node.js Facade for Perceptive Home Automations Indigo home automation servers python REST API",
+	"version": "0.0.2",
+	"repository": {
+		"type": "git",
+		"url":  "git://github.com/kcjonson/indigo.git" },
+	"bin": "./bin/indigo.js"
+	"private": false
 }
