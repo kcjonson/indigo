@@ -12,5 +12,8 @@
 		"url":  "git://github.com/kcjonson/indigo.git" },
 	"main:": "./lib/indigo.js",
 	"license": "MIT",
-	"private": false
+	"private": false,
+	"dependencies": {
+    	"node-expat": ">= 2.0.0"
+	}
 }
