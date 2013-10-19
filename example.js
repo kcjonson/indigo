@@ -7,4 +7,4 @@ indigo.connectServer({
 	variablesPath: 'variables/'
 });
 
-indigo.setVariable('isAwayd', false);
+indigo.setVariable('isAway', false);
