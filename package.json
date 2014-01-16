@@ -14,6 +14,7 @@
 	"license": "MIT",
 	"private": false,
 	"dependencies": {
-    	"node-expat": ">= 2.0.0"
+    	"node-expat": ">= 2.0.0",
+    	"xml2js" : "0.4.1"
 	}
 }
