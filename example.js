@@ -8,6 +8,21 @@ indigo.connectServer({
 
 //indigo.setVariable('isAway', false);
 
+
+
+/*
+indigo.getDevices(function(devices){
+	console.log('devices', devices);
+});
+*/
+
+/*
+indigo.getDevice('Downstairs Overhead Lights', function(device){
+	console.log('device', device);
+});
+*/
+
+
 /*
 indigo.getVariable('isAway', function(variable) {
 	console.log(variable);
