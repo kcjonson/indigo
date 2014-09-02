@@ -1,12 +1,19 @@
 indigo = require('./lib/indigo.js');
 
 indigo.connectServer({
-	host: 'server.local',
+	host: 'localhost',
 	port: 8176,
-	serverPath: ''
+	serverPath: '/indigo'
 });
 
-/* indigo.setVariable('isAway', false); */
+
+indigo.executeAction('Turn Off All Lights');
+//indigo.executeAction('Pause');
+
+
+
+
+//indigo.setVariable('isAway', false);
 
 
 /*
